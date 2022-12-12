@@ -1,4 +1,6 @@
 import './meal-item.js';
+// import './search-item-category.js';
+// import './meal-item-category.js';
 
 class MealList extends HTMLElement {
     set meals(meals) {

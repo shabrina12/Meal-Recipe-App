@@ -1,3 +1,5 @@
+// import './search-item-category.js';
+
 class MealItem extends HTMLElement {
   set meal(meal) {
     this._meal = meal;
@@ -31,12 +33,3 @@ class MealItem extends HTMLElement {
   }
 }
 customElements.define('meal-item', MealItem);
-//<h4>Ingredients: </h4>
-// <ul>
-//           <li>${this._meal.strIngredient1}</li>
-//           <li>${this._meal.strIngredient2}</li>
-//           <li>${this._meal.strIngredient3}</li>
-//           <li>${this._meal.strIngredient4}</li>
-//           <li>${this._meal.strIngredient5}</li>
-//           <li>${this._meal.strIngredient6}</li>
-//       </ul>

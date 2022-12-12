@@ -87,6 +87,28 @@ body {
   font-style: italic;
 }
 
+/*----------------------------MEAL CATEGORY --------------------------*/
+#meal-category {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+.category-btn {
+  color: white;
+  padding: 10px 15px;
+  background: #d65108;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.category-btn:hover {
+  background: #b54507;
+}
+
 /*----------------------------MEAL RESULT --------------------------*/
 .meal-result {
   margin-top: 3rem;

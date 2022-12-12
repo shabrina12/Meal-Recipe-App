@@ -19,17 +19,6 @@ class DataSource {
   }
 }
 
-// class DataDetails {
-//     static detailsMeal(idMeal) {
-//       //fungsi fetch() akan mengembalikan promise resolve jika request berhasil dilakukan.
-//       return fetch(`https://themealdb.com/api/json/v1/1/lookup.php?i=${idMeal}`)
-//         .then(response => {
-//           return response.json();
-//         })
-
-//         .then(data => MealDetails(data.meals));
-//     }
-// }
 
 // class DataDetails(e) {
 //   static detailsMeal(idMeal) {
@@ -54,5 +43,5 @@ class DataSource {
 //   }
 // }
 
-// export { DataSource, DataDetails };
+//export default { DataSource, DataSource2 };
 export default DataSource;
