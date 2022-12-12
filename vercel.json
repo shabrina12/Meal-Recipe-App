@@ -2,7 +2,7 @@
     "version": 2,
     "name": "food-recipes",
     "builds": [
-       { "src": "/src/app.js", "use": "@vercel/node" }
+       { "src": "app.js", "use": "@vercel/node" }
     ],
     "routes": [
        { "src": "/(.*)", "dest": "/src/app.js" }
